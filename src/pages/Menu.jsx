@@ -1,6 +1,7 @@
 import {useState} from 'react'
 import menuAberto from "../assets/Menu Aberto.png"
 import { Container } from './Menu.styles';
+import { Link } from 'react-router-dom';
 
 export default function Menu() {
     const [aberto, setAberto] = useState(false);
@@ -20,11 +21,11 @@ export default function Menu() {
             {aberto &&
               <nav className={aberto ? "nav aberto" : "nav"}>
                  <ul>
-                  <li><a href="/">Home</a></li>
-                  <li><a href="/sobre">Sobre</a></li>
-                  <li><a href="/materiais">Materiais</a></li>
-                  <li><a href="/referencias">Referencias</a></li>
-                  <li><a href="/contato">Contato</a></li>
+                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/sobre">Sobre</Link></li>
+                    <li><Link to="/materiais">Materiais</Link></li>
+                    <li><Link to="/referencias">Referencias</Link></li>
+                    <li><Link to="/contato">Contato</Link></li>
                 </ul>
               </nav>
               

@@ -2,6 +2,7 @@ import logo from "../assets/LOGO.png"
 import {Global} from "./Header.styles"
 import {Nav} from "./Header.styles"
 import { Container } from "./Header.styles"
+import { Link } from "react-router-dom"
 import Menu from "./Menu"
 
   export default function Header() {
@@ -20,11 +21,11 @@ import Menu from "./Menu"
   
               <Nav>
                 <ul>
-                    <li><a className="Home" href="/">Home</a></li>
-                    <li><a href="/sobre">Sobre</a></li>
-                    <li><a href="/materiais">Materiais</a></li>
-                    <li><a href="/referencias">Referencias</a></li>
-                    <li><a href="/contato">Contato</a></li>
+                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/sobre">Sobre</Link></li>
+                    <li><Link to="/materiais">Materiais</Link></li>
+                    <li><Link to="/referencias">Referencias</Link></li>
+                    <li><Link to="/contato">Contato</Link></li>
                 </ul>
               </Nav>
           </Container>
