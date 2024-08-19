@@ -127,4 +127,192 @@ export const Conteudo = styled.main`
     margin-left: 2.200rem;
   }
 
+  @media screen and (max-width: 500px) {
+    br {
+      display: none;
+    }
+
+  .titulos h2 {
+    font-size: 1.100rem;
+    text-align: left;
+    margin-left: 1.400rem;
+  }
+
+  .titulos h1 {
+    font-size: 1.995rem;
+    text-align: left;
+    margin-left: 1.400rem;
+  }
+
+  .titulos p {
+    text-align: left;
+    font-size: 1.125rem;
+    margin-top: 1.500rem;
+    margin-left: 1.400rem;
+    margin-right: 2rem;
+  }
+
+  h3 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: ${props => props.theme.legendaCinza};
+    margin-top: 0.900rem;
+    text-align: center;
+  }
+
+  img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .textos_imagens p {
+    font-size: 1.125rem;
+    text-align: center;
+    margin-inline: 2rem;
+  }
+
+  .macho_femea {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+  }
+
+  .macho_femea img {
+    margin: auto;
+  }
+
+  .macho {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+  }
+
+  .macho img {
+    margin: auto;
+  }
+
+  .femea {
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .femea img {
+    margin: auto;
+  }
+
+  .fonte {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+  }
+
+  .fonte img {
+    margin: auto;
+  }
+
+  .kit {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+  }
+
+  .kit img {
+    margin: auto;
+  }
+
+  .rele {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+  }
+
+  .rele img {
+    margin: auto;
+  }
+
+  .umidade {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+  }
+
+  .umidade img {
+    margin: auto;
+  }
+
+  .matriz {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+  }
+
+  .matriz img {
+    margin: auto;
+  }
+
+  .bomba {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+  }
+
+  .bomba img {
+    margin: auto;
+  }
+
+  .mangueira {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+  }
+
+  .mangueira img {
+    margin: auto;
+  }
+
+  .mp3 {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+  }
+
+  .mp3 img {
+    margin: auto;
+  }
+
+  .blueetooth {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+  }
+
+  .blueetooth img {
+    margin: auto;
+  }
+
+  .speaker {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+  }
+
+  .speaker img {
+    margin: auto;
+  }
+  }
+
 `

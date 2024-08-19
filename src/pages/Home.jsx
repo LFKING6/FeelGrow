@@ -1,5 +1,4 @@
 import Header from "./Header";
-import {Conteudo} from "./Home.styles"
 import {Intro} from "./Home.styles"
 import {Sobre} from "./Home.styles"
 import {Diferenciais} from "./Home.styles"
@@ -7,7 +6,6 @@ import {Contato} from "./Home.styles"
 import imagem1 from "../assets/Imagem Vaso.png"
 import telefone from "../assets/Telefone (1).png"
 import check from "../assets/Check.png"
-import imagemIntro from "../assets/Imagem Intro.png"
 import engrenagem from "../assets/Engrenagem.png"
 import voz from "../assets/Voz.png"
 import plantaEnergia from "../assets/Planta Energia.png"
@@ -18,14 +16,10 @@ export default function () {
   return (
     <div>
         <Header />
-        <Conteudo>
+        <div className="conteudo">
             <Intro>
-                <div className="intro_imagem">
-                    <img src={imagemIntro} alt="" />
-                </div>
-
                 <div className="intro_textos">
-                    <h1>Vaso de Plantas Inteligente <br /> Automático: <span>Cuide das Suas <br /> Plantas Sem Esforço</span></h1>
+                    <h1>Vaso de Plantas Inteligente Automático: <span><br/>Cuide das Suas Plantas Sem Esforço</span> </h1>
                     <p>Apresentamos o FeelGrow, um vaso inteligente que cuida da <br /> irrigação automática e expressa emoções. Ideal para quem ama <br /> plantas, mas tem pouco tempo. Desfrute de um ambiente verde e <br /> saudável sem estresse.</p>
                     <a href="/sobre"><button>Saiba Mais</button></a>
                 </div>
@@ -103,7 +97,7 @@ export default function () {
                 </div>
             </div>
           </Contato>
-        </Conteudo>
+        </div>
     </div>
   )
 }
