@@ -3,6 +3,7 @@ import {Intro} from "./Home.styles"
 import {Sobre} from "./Home.styles"
 import {Diferenciais} from "./Home.styles"
 import {Contato} from "./Home.styles"
+import {Link} from "react-router-dom"
 import imagem1 from "../assets/Imagem Vaso.png"
 import telefone from "../assets/Telefone (1).png"
 import check from "../assets/Check.png"
@@ -21,7 +22,7 @@ export default function () {
                 <div className="intro_textos">
                     <h1>Vaso de Plantas Inteligente Automático: <span><br/>Cuide das Suas Plantas Sem Esforço</span> </h1>
                     <p>Apresentamos o FeelGrow, um vaso inteligente que cuida da <br /> irrigação automática e expressa emoções. Ideal para quem ama <br /> plantas, mas tem pouco tempo. Desfrute de um ambiente verde e <br /> saudável sem estresse.</p>
-                    <a href="/sobre"><button>Saiba Mais</button></a>
+                    <Link to="/sobre"><a href="/sobre"><button>Saiba Mais</button></a></Link>
                 </div>
             </Intro>
 
@@ -41,7 +42,7 @@ export default function () {
                     <p><img src={check} alt="" />Eficiência</p>
                     <p><img src={check} alt="" />Inovação</p>
                 </div>
-                <a href="/sobre"><button>Saiba Mais</button></a>
+                <Link to="/sobre"><a href="/sobre"><button>Saiba Mais</button></a></Link>
             </div>
           </Sobre>
 
@@ -93,7 +94,7 @@ export default function () {
                 <h2>TEM ALGUMA PERGUNTA OU DÚVIDA?</h2>
                 <h1>Entre em Contato Conosco: <span>Nossa Equipe Está <br /> à Sua Disposição!</span></h1>
                 <div className="botao_contato">
-                <a href="/contato"><button><img src={telefone} alt="" />Saiba Mais</button></a>
+                <Link to="/contato"><a href="/contato"><button><img src={telefone} alt="" />Saiba Mais</button></a></Link>
                 </div>
             </div>
           </Contato>

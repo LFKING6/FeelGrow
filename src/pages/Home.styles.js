@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import imagem1 from "../assets/Imagem Intro.png";
-import imagem2 from "../assets/Intro Imagem Mb.png";
+import imagem1 from "../assets/Imagem Introo.png";
+import imagem2 from "../assets/Imagem Introo Mb.png";
 
 export const Intro = styled.div`
   background: url(${imagem1});
