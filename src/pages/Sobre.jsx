@@ -25,7 +25,19 @@ export default function () {
             <p>O aplicativo FeelGrow se conecta aos sensores via Bluetooth <br /> para monitorar em tempo real a umidade do solo, a <br /> temperatura e a umidade do ar. Ele exibe essas informações <br /> de maneira simples, permitindo que você acompanhe <br /> facilmente o estado da planta.</p>
           </div>
         </div>
-          
+
+        <div className="titulo">
+          <h1>Vídeo de <span>Funcionamento</span></h1>
+        </div>
+
+        <div className="video">
+        <iframe width="310" height="410"
+          src="https://youtube.com/embed/VOkkff1b-Cg?si=PK8JSGbZulc0DcQR"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+        </div>
           
         </Conteudo>
         

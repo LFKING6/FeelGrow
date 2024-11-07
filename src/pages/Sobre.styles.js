@@ -34,6 +34,19 @@ export const Conteudo = styled.main`
     margin-left: 3rem;
   }
 
+  .video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .titulo {
+    text-align: center;
+    margin-top: 1rem;
+  }
+
   @media screen and (max-width: 500px) {
 
   br {
@@ -77,6 +90,10 @@ export const Conteudo = styled.main`
     margin-bottom: 1.400rem;
     margin-left: 1.400rem;
     margin-right: 2rem;
+  }
+
+  .titulo {
+    font-size: 0.9rem;
   }
   }
 `
