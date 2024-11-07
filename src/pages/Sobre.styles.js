@@ -42,7 +42,29 @@ export const Conteudo = styled.main`
     margin-bottom: 2rem;
   }
 
+  .video1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .videos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    gap: 2rem;
+  }
+
   .titulo {
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  .titulo1 {
     text-align: center;
     margin-top: 1rem;
   }
@@ -95,5 +117,16 @@ export const Conteudo = styled.main`
   .titulo {
     font-size: 0.9rem;
   }
+
+  .videos {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    gap: 2rem;
+  }
+
+  
   }
 `

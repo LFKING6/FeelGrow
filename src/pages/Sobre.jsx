@@ -30,6 +30,7 @@ export default function () {
           <h1>Vídeo de <span>Funcionamento</span></h1>
         </div>
 
+        <div className="videos">
         <div className="video">
         <iframe width="310" height="410"
           src="https://youtube.com/embed/VOkkff1b-Cg?si=PK8JSGbZulc0DcQR"
@@ -38,7 +39,19 @@ export default function () {
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen></iframe>
         </div>
-          
+
+        <div className="video1">
+        <iframe width="310" height="410" src="https://www.youtube.com/embed/uBLwpj8Isdc?si=6uAyDa2_A3BIbEhy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        </div>
+
+        <div className="titulo1">
+          <h1>Vídeo do <span>Jogo</span></h1>
+        </div>
+
+        <div className="video">
+        <iframe width="610" height="410" src="https://www.youtube.com/embed/jdpexQHS8iI?si=ZJT8R35vW9FA_bE3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
         </Conteudo>
         
     </div>
